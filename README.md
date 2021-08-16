@@ -22,6 +22,17 @@ If you find this work useful and use it in your research, please consider citing
 
 ## Dependencies
 
+- Python 3.6
+- Numpy
+- Scipy
+- PyTorch >= v1.2.0
+- librosa
+- pysptk
+- soundfile
+- matplotlib
+- wavenet_vocoder pip install wavenet_vocoder==0.1.1 for more information, please refer to https://github.com/r9y9/wavenet_vocoder
+
+
 ## To training
 
 The training process of AdaVC consists of two parts, the first is to train the timbre constraint, the prosody constraint and the discriminator, and then further train the reconstruction loss of mel.
