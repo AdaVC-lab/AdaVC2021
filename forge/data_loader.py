@@ -8,7 +8,7 @@ class DisentangledFeat(Dataset):
         self.__read__()
 
     def __read__(self):
-        with open('/home/hz-liuben/AdaVC-all/AdaVC_20210728_final/check_points/extracted_features_for_forge.pkl', 'rb') as handle:
+        with open('./extracted_features_for_forge.pkl', 'rb') as handle:
             extracted_features = load(handle)
         
         self.timestamp = []
