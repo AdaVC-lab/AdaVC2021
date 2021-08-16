@@ -9,7 +9,7 @@ from multiprocessing import Queue, Process, Manager
 from queue import Empty
 import pickle
 
-with open('/home/hz-liuben/AdaVC-all/AdaVC_20210707/check_points/coll_emb.pkl', 'rb') as handle:
+with open('./coll_emb.pkl', 'rb') as handle:
     COLLECTORS_EMB = pickle.load(handle)
 
 
