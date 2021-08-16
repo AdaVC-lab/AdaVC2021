@@ -26,7 +26,7 @@ TEST_DEC_INP = torch.zeros(size=(30,
                             FORGE_PARAMS['pred_len'],
                             FORGE_PARAMS['dec_out_dim']), dtype=torch.float32).to(DEVICE)
 
-with open('/home/hz-liuben/AdaVC-all/AdaVC_20210728_final/check_points/extracted_features_for_forge_testset.pkl', 'rb') as handle:
+with open('./extracted_features_for_forge_testset.pkl', 'rb') as handle:
     extracted_features = load(handle)
             
 test_timestamp = []
