@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 DEVICE = 'cuda:0'
-CHECK_POINT = '/home/hz-liuben/AdaVC-all/AdaVC_20210725/check_points/ada_vc_model'
+CHECK_POINT = './ada_vc_model'
 
 
 CONV_PARAMS = dict(
@@ -40,7 +40,7 @@ CONV_PARAMS = dict(
 
     e_layers=2,
     d_layers=2,
-    root_dir='/home/hz-liuben/0610/grouped_wav/',
+    root_dir='./grouped_wav/',
     num_workers=15,
     check_point=CHECK_POINT,
 )
