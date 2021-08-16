@@ -28,8 +28,8 @@ The training process of AdaVC consists of two parts, the first is to train the t
 
 Please use the scripts to prepare your own data for training.
 
-- 1.Extract spectrogram and f0(conversion module): python data_loader.py
+- Extract spectrogram and f0(conversion module): python data_loader.py
 
-- 2.Run the training scripts(conversion module): python train.py
+- Run the training scripts(conversion module): python train.py
 
-- 3.Run the forge scripts(forge module): python forge_demo.py
+- Run the forge scripts(forge module): python forge_demo.py
