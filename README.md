@@ -22,8 +22,11 @@ If you find this work useful and use it in your research, please consider citing
 
 ## Dependencies
 
-- Python 3.6
+- Python 3.8
+- multiprocessing
+- queue
 - Numpy
+- math
 - Scipy
 - PyTorch >= v1.2.0
 - librosa
