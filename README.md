@@ -6,11 +6,11 @@ AdaVC is an adaptive voice conversion framework designed to improve debt collect
 
 Flowchart of AdaVC
 
-(i) Training phase
+- Training phase
 
 ![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/AdaVC-Overview-training-new.png)
 
-(ii) Conversion phase
+- Conversion phase
 
 ![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/AdaVC-Overview-conversion.png)
 
