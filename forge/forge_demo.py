@@ -57,7 +57,7 @@ def forge_to_wavefrom(bad_path, seq_len, pad_len):
     pro_hidden = hidden[:, :, 35:70]
     
     transform_direction = pro_hidden_good.mean(dim=1) - pro_hidden.mean(dim=1)
-    pro_hidden_good = pro_hidden + 3.5 * transform_direction
+    pro_hidden_good = pro_hidden + 3.5 * transform_direction. # 3.5 is the hyperparameter $\beta$ in this paper
     cont_hidden = hidden[:, :, 70:]
     
     new_hidden = torch.cat([tim_hidden, pro_hidden_good, cont_hidden], dim=-1)
