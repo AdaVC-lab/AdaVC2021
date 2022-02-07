@@ -8,15 +8,15 @@ Flowchart of AdaVC
 
 - Training phase
 
-![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/AdaVC-Overview-training-new.png)
+![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/AdaVC_Overview_training.bmp)
 
 - Conversion phase
 
-![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/AdaVC-Overview-conversion.png)
+![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/AdaVC_Overview_conversion.bmp)
 
 Design motivation of AdaVC forge module
 
-![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/forge_function_with_arrow.png)
+![image](https://github.com/AdaVC-lab/AdaVC2021/blob/main/forge_function_with_arrow.bmp)
 
 If you find this work useful and use it in your research, please consider citing our paper.
 
