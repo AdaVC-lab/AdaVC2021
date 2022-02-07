@@ -20,7 +20,9 @@ Design motivation of AdaVC forge module
 
 If you find this work useful and use it in your research, please consider citing our paper.
 
-## Audio demo
+## Audio demos
+
+We show some audio demos, and if you want to obtain the large-scale dataset of telephone recordings in the practical scenarios of debt collections, please contact us.
 
 ## Dependencies
 
